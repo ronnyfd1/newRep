@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: Selenium.MyFirstTestClass
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 73.867 sec <<< FAILURE! - in Selenium.MyFirstTestClass
+myFirstSeleniumTest2(Selenium.MyFirstTestClass)  Time elapsed: 15.007 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at PageObject.LoginPage.enterUserName(LoginPage.java:19)
+	at Selenium.MyFirstTestClass.myFirstSeleniumTest2(MyFirstTestClass.java:29)
+
+ikeaTest(Selenium.MyFirstTestClass)  Time elapsed: 23.225 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at PageObject.IkeaCatalogPage.watchMyList(IkeaCatalogPage.java:38)
+	at Selenium.MyFirstTestClass.ikeaTest(MyFirstTestClass.java:70)
+
+twoBrowsers(Selenium.MyFirstTestClass)  Time elapsed: 5.39 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at Selenium.GenericWebDriver.openUrl(GenericWebDriver.java:57)
+	at Selenium.MyFirstTestClass.twoBrowsers(MyFirstTestClass.java:49)
+
