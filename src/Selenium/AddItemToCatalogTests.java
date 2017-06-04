@@ -10,7 +10,7 @@ public class AddItemToCatalogTests extends BasicTest {
 	public void AddItemToCatalog_FullFlow() throws Exception {
 		webdriver.openUrl("http://auto-course.us-west-2.elasticbeanstalk.com/addItemToCatalog.jsp");
 
-		addItemToCatalogPage.chooseCategory("Bags");
+		addItemToCatalogPage.chooseCategory2("Bags");
 		addItemToCatalogPage.chooseQuantity("100");
 		addItemToCatalogPage.enterItemName("My new bag");
 		addItemToCatalogPage.enterDescription("My new description");

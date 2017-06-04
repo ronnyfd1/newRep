@@ -23,7 +23,7 @@ public class AddItemToCatalogPage extends GenericPageObject {
 		webDriver.selectComboBoxOptions(optionVale, QUANTITY_XPATH);
 	}
 
-	public void chooseCategory(String optionVale) throws Exception {
+	public void chooseCategory2(String optionVale) throws Exception {
 		webDriver.selectComboBoxOptions(optionVale, CATEGORY_XPATH);
 	}
 
